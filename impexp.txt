@@ -1,0 +1,17 @@
+public class TypeCasting {
+
+public static void main(String[] args) {
+// Implict TypeCasting
+    
+    int num1 = 5;
+    double num2 = num1;
+    System.out.println(num2);	
+    
+// Explict TypeCasting
+    
+    double num3 = 5.5;
+    int num4 = (int)num3;
+    System.out.println(num4);
+    
+    }
+}
