@@ -2,7 +2,7 @@ package demo1;
 
 public class Calculator {
 	
-//Private access modifier
+//Default access modifier
 	void add(int a, int b) {
 		System.out.println(a+b);
 	}
