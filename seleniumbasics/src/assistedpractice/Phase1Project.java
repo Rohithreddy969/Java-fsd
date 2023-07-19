@@ -64,7 +64,7 @@ public class Phase1Project {
 			System.out.println("Test case failed");
 		}
 		
-		//	Close the browser.
+		// Close the browser.
 		driver.quit();
 	}
 }
