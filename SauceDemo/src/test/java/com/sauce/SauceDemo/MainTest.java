@@ -1,5 +1,7 @@
 package com.sauce.SauceDemo;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -18,7 +20,7 @@ ChromeDriver driver;
 	}
 	
 	@Test
-	public void buyProduct() {
+	public void BuyProduct() {
 		LoginPage loginPages = new LoginPage(driver);
 		loginPages.userIdPass();
 		
@@ -37,7 +39,7 @@ ChromeDriver driver;
 		FinalPage finalPage = new FinalPage(driver);
 		String expectedMsg = "Thank you for your order!";
 		String actualMsg = finalPage.getMsgText();
-		Assert.assertEquals(actualMsg, expectedMsg);
+		AssertJUnit.assertEquals(actualMsg, expectedMsg);
 	}
 	
 	@AfterTest

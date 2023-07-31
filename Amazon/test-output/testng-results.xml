@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-18T13:11:53 IST" name="Default suite" finished-at="2023-07-18T13:12:15 IST" duration-ms="21811">
+  <suite started-at="2023-07-31T11:03:03 IST" name="Default suite" finished-at="2023-07-31T11:03:41 IST" duration-ms="38171">
     <groups>
     </groups>
-    <test started-at="2023-07-18T13:11:53 IST" name="Default test" finished-at="2023-07-18T13:12:15 IST" duration-ms="21811">
-      <class name="in.amazon.testscripts.VerifySignIn">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.amazon.testscripts.VerifySignIn@25ce9dc4]" started-at="2023-07-18T13:11:53 IST" name="launchApplication" finished-at="2023-07-18T13:12:10 IST" duration-ms="16953" status="PASS">
+    <test started-at="2023-07-31T11:03:03 IST" name="Default test" finished-at="2023-07-31T11:03:41 IST" duration-ms="38171">
+      <class name="in.amazon.testscripts.AutoCompleteBoxTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:in.amazon.testscripts.AutoCompleteBoxTest@25ce9dc4]" started-at="2023-07-31T11:03:03 IST" name="launchApplication" finished-at="2023-07-31T11:03:26 IST" duration-ms="23132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="verifySignIn()[pri:0, instance:in.amazon.testscripts.VerifySignIn@25ce9dc4]" started-at="2023-07-18T13:12:10 IST" name="verifySignIn" finished-at="2023-07-18T13:12:14 IST" duration-ms="4055" status="PASS">
+        <test-method signature="selectItem()[pri:0, instance:in.amazon.testscripts.AutoCompleteBoxTest@25ce9dc4]" started-at="2023-07-31T11:03:26 IST" name="selectItem" finished-at="2023-07-31T11:03:40 IST" duration-ms="13422" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignIn -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.amazon.testscripts.VerifySignIn@25ce9dc4]" started-at="2023-07-18T13:12:14 IST" name="closeBrowser" finished-at="2023-07-18T13:12:15 IST" duration-ms="626" status="PASS">
+        </test-method> <!-- selectItem -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:in.amazon.testscripts.AutoCompleteBoxTest@25ce9dc4]" started-at="2023-07-31T11:03:40 IST" name="closeBrowser" finished-at="2023-07-31T11:03:41 IST" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- in.amazon.testscripts.VerifySignIn -->
+      </class> <!-- in.amazon.testscripts.AutoCompleteBoxTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

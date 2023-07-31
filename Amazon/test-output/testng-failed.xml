@@ -5,6 +5,7 @@
     <classes>
       <class name="in.amazon.testscripts.BuyMobileTest">
         <methods>
+          <include name="closeBrowser"/>
           <include name="launchApplication"/>
           <include name="BuyMobile"/>
         </methods>

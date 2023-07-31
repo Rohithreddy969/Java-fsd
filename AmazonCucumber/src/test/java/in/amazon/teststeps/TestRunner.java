@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 			features = "Features",
 			glue = "in.amazon.teststeps",
 			//dryRun = true
-			tags = "@product_purchase or @login_functionality"
+			tags = "@TC_103"
 		)
 
 public class TestRunner extends AbstractTestNGCucumberTests{

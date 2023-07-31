@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-25T15:43:56 IST" name="Default suite" finished-at="2023-07-25T15:44:25 IST" duration-ms="29107">
+  <suite started-at="2023-07-26T09:06:42 IST" name="Default suite" finished-at="2023-07-26T09:07:07 IST" duration-ms="24214">
     <groups>
     </groups>
-    <test started-at="2023-07-25T15:43:56 IST" name="Default test" finished-at="2023-07-25T15:44:25 IST" duration-ms="29107">
+    <test started-at="2023-07-26T09:06:42 IST" name="Default test" finished-at="2023-07-26T09:07:07 IST" duration-ms="24214">
       <class name="com.sauce.SauceDemo.MainTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.sauce.SauceDemo.MainTest@7d0b7e3c]" started-at="2023-07-25T15:43:56 IST" name="launchApplication" finished-at="2023-07-25T15:44:21 IST" duration-ms="25190" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.sauce.SauceDemo.MainTest@7d0b7e3c]" started-at="2023-07-26T09:06:43 IST" name="launchApplication" finished-at="2023-07-26T09:07:03 IST" duration-ms="20476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="buyProduct()[pri:0, instance:com.sauce.SauceDemo.MainTest@7d0b7e3c]" started-at="2023-07-25T15:44:21 IST" name="buyProduct" finished-at="2023-07-25T15:44:24 IST" duration-ms="3355" status="PASS">
+        <test-method signature="BuyProduct()[pri:0, instance:com.sauce.SauceDemo.MainTest@7d0b7e3c]" started-at="2023-07-26T09:07:03 IST" name="BuyProduct" finished-at="2023-07-26T09:07:06 IST" duration-ms="2925" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sauce.SauceDemo.MainTest@7d0b7e3c]" started-at="2023-07-25T15:44:24 IST" name="closeBrowser" finished-at="2023-07-25T15:44:25 IST" duration-ms="450" status="PASS">
+        </test-method> <!-- BuyProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sauce.SauceDemo.MainTest@7d0b7e3c]" started-at="2023-07-26T09:07:06 IST" name="closeBrowser" finished-at="2023-07-26T09:07:07 IST" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
