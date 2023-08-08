@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T09:42:21Z" name="Default suite" finished-at="2023-07-19T09:42:52Z" duration-ms="31129">
+    <groups>
+    </groups>
+    <test started-at="2023-07-19T09:42:21Z" name="Default test" finished-at="2023-07-19T09:42:52Z" duration-ms="31129">
+      <class name="com.simplilearn.mavencicdjenkin.VerifyTitle">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.simplilearn.mavencicdjenkin.VerifyTitle@67d18ed7]" started-at="2023-07-19T09:42:21Z" name="launchApplication" finished-at="2023-07-19T09:42:52Z" duration-ms="30405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="titleVerification()[pri:0, instance:com.simplilearn.mavencicdjenkin.VerifyTitle@67d18ed7]" started-at="2023-07-19T09:42:52Z" name="titleVerification" finished-at="2023-07-19T09:42:52Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.simplilearn.mavencicdjenkin.VerifyTitle@67d18ed7]" started-at="2023-07-19T09:42:52Z" name="closeBrowser" finished-at="2023-07-19T09:42:52Z" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.simplilearn.mavencicdjenkin.VerifyTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

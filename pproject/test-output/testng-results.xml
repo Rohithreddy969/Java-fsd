@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T16:05:25 IST" name="Default suite" finished-at="2023-07-21T16:06:59 IST" duration-ms="93910">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T16:05:25 IST" name="Default test" finished-at="2023-07-21T16:06:59 IST" duration-ms="93910">
+      <class name="testScripts.MainTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testScripts.MainTest@1ed4ae0f]" started-at="2023-07-21T16:05:25 IST" name="launchApplication" finished-at="2023-07-21T16:05:33 IST" duration-ms="8296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="bookBus()[pri:0, instance:testScripts.MainTest@1ed4ae0f]" started-at="2023-07-21T16:05:33 IST" name="bookBus" finished-at="2023-07-21T16:06:58 IST" duration-ms="84928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookBus -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.MainTest@1ed4ae0f]" started-at="2023-07-21T16:06:58 IST" name="closeBrowser" finished-at="2023-07-21T16:06:59 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
